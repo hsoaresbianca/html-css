@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    font-family: var(--fonte2);
+    padding-top: 50px;
+}
+
+header p {
+    font-family: var(--fonte1);
+    padding-bottom: 50px;
+}
+
+section {
+    font-family: var(--fonte3);
+}
+
+section#img1 {
+    background-color: red;
+    background-image: url(/desafios/012/imagens/background001.jpg);
+    background-repeat: no-repeat;
+
+}
+
+section#img2{
+    background-color: blue;
+    background-image: url(/desafios/012/imagens/background002.jpg);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
