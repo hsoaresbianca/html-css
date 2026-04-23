@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div#tabela{
+            overflow-x: auto;
+        }
+
+        table {
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.2em;
+            padding: 10px;
+            text-align: left;
+        }
+
+        thead {
+            background-color: darkblue;
+            color: white;
+        }
+
+        tbody > tr:nth-child(even){
+            background-color:lightblue;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas Responsivas</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore recusandae commodi alias debitis corrupti suscipit delectus doloribus maxime sit, rem, nesciunt quaerat voluptatum saepe dolorum. Esse eligendi officiis nobis iure.</p>
+
+    <div id="tabela">
+        <table>
+            <caption>Exemplo de Tabela Responsiva:</caption>
+            <thead>
+                <tr>
+                    <th rowspan="2" scope="col">Produtos</th>
+                    <th colspan="12" scope="colgroup">Número de Vendas</th>
+                </tr>
+
+                <tr>
+                    <th scope="col">Jan.</th>
+                    <th scope="col">Fev.</th>
+                    <th scope="col">Mar.</th>
+                    <th scope="col">Abr.</th>
+                    <th scope="col">Maio</th>
+                    <th scope="col">Jun.</th>
+                    <th scope="col">Jul.</th>
+                    <th scope="col">Ago.</th>
+                    <th scope="col">Set.</th>
+                    <th scope="col">Out.</th>
+                    <th scope="col">Nov.</th>
+                    <th scope="col">Dez.</th>
+                </tr>
+            </thead>
+        
+            <tbody>
+                <tr>
+                    <td>Televisão</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                </tr>
+                <tr>
+                    <td>Computador</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                </tr>
+                <tr>
+                    <td>Lava-Louças</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                </tr>
+                <tr>
+                    <td>Notebook</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                </tr>
+                <tr>
+                    <td>Lava-Roupas</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                </tr>
+                <tr>
+                    <td>Microondas</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                    <td>000</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
