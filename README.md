@@ -1,4 +1,4 @@
-#  Exercícios e Desafios Resolvidos do Curso de HTML5 e CSS3 (Módulo 1 ao 5) do Curso em Vídeo.
+# Curso de HTML5 e CSS3 (Módulo 1 ao 5) do Curso em Vídeo.
 
 Professor: <a href="https://github.com/gustavoguanabara" target="blank">Gustavo Guanabara</a>.
 
