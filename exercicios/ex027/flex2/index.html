@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-box 2</title>
+
+    <style>
+
+        h1 {
+            text-align: center;
+        }
+
+        div.container {
+            background-color: lightskyblue;
+            
+            display: flex;
+
+            margin: 5px;
+            /* 
+            O flex-direction é aplicado no container pai.
+            Tipos de FLEX-DIRECTION:
+            flex-direction: row; - PADRÃO - se não colocar nenhum flex-direction será o row.
+            flex-direction: row-reverse;
+            flex-direction: column;
+            flex-direction: column-reverse; */
+        }
+
+        div.container#um {
+            flex-direction: row;
+        }
+
+        div.container#dois {
+            flex-direction: row-reverse;
+        }
+
+        div.container#tres {
+            flex-direction: column;
+        }
+
+        div.container#quatro {
+            flex-direction: column-reverse;
+        }
+
+        div.item {
+            background-color: lightpink;
+            border: 1px solid black;
+            text-align: center;
+            padding: 2px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>FLEX-DIRECTION</h1>
+
+    <h2>1. (Padrão) row:</h2>
+    <div class="container" id="um">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>
+
+    <h2>2. row-reverse:</h2>
+    <div class="container" id="dois">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>
+
+    <h2>3. column:</h2>
+    <div class="container" id="tres">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>
+
+    <h2>4. column-reverse:</h2>
+    <div class="container" id="quatro">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+    </div>
+</body>
+</html>
